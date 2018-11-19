@@ -74,7 +74,7 @@ function log2 (I: in natural) return natural is
 	variable it : natural;
 begin
 	it := 0;
-	while (2**it < I) and it < 31 loop
+	while (2**it < x) and it < 31 loop
 		it := it+1;
 	end loop;
 	return it;

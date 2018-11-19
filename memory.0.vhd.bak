@@ -65,7 +65,7 @@ architecture behavior of memory is
 	-- definition de constantes
 
 	-- definitions de types (index type default is integer)
-	type FILE_REGS is array (0 to (MEM_SIZE-1)) of std_logic_vector (DBUS_WIDTH-1 downto 0);
+	type FILE_REGS is array (0 to (MEM_SIZ-1)) of std_logic_vector (DBUS_WIDTH-1 downto 0);
 
 	-- definition de la fonction de chargement d'un fichier
 	--		on peut egalement mettre cette boucle dans le process qui fait les ecritures
