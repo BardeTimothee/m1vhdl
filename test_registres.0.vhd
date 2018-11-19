@@ -60,7 +60,7 @@ end process P_TIMEOUT;
 --------------------------------------------------
 -- instantiation et mapping du composant registres
 regf0 : entity work.registres(behavior)
---					generic map (S_DATA,S_ADR,WFRONT)
+					generic map (S_DATA,S_ADR)
 					port map (CLK => E_CLK,
 								 W => E_W,
 								 RST => E_RST,
@@ -142,7 +142,7 @@ begin
 	wait until (E_CLK=not(WFRONT));
 	assert E_QA = to_stdlogicvector(BIT_VECTOR'(X"F5F5F5F5"))
 		report "Register 5 BAD VALUE"
-		severity WARNING;
+		severity ERROR;
 
 	-- NOP
 	wait until (E_CLK=(WFRONT)); wait for clkpulse/2;
