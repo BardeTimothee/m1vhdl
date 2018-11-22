@@ -48,7 +48,7 @@ entity memory is
 		AS				: in std_logic; -- Address Strobe (sorte de /CS)
 
 		-- bus d'adresse du cache
-		ADR			: in std_logic_vector(log2(MEM_SIZE) downto 0);
+		ADR			: in std_logic_vector(log2(MEM_SIZE)-1 downto 0);
 
 		-- Ports entree/sortie du cache
 		D				: in std_logic_vector(DBUS_WIDTH-1 downto 0);

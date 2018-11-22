@@ -71,13 +71,28 @@ package body cpu_package is
 
 -- fonction log2
 function log2 (I: in natural) return natural is
-	variable it : natural;
+	variable IV : std_logic_vector(I-1 downto 0);
 begin
-	it := 0;
-	while (2**it < I) and it < 31 loop
-		it := it+1;
+	IV := conv_std_logic_vector(I, IV'length);
+	for j in IV'range loop
+		if IV(j) = '1' then
+			if IV(j-1 downto 0) = conv_std_logic_vector(0, j) then
+				return j;
+			else
+				return j+1;
+			end if;
+		end if;
 	end loop;
-	return it;
 end log2;
+
+--function log2 (I: in natural) return natural is
+--	variable it : natural;
+--begin
+--	it := 0;
+--	while (2**it < I) and it < 31 loop
+--		it := it+1;
+--	end loop;
+--	return it;
+--end log2;
 
 end cpu_package;
