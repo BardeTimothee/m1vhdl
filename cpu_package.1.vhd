@@ -135,13 +135,15 @@ begin
 		C_CLA(i+1) := G_CLA(i) or (P_CLA(i) and C_CLA(i));
 	end loop;
 	S := ((A xor B) xor C_CLA(A'range));
+	C_OUT := C_CLA(C_CLA'high);
+	V := C_CLA(C_CLA'high) xor C_CLA(C_CLA'high-1);
 end adder_cla;
 
 -- procedure alu
---procedure alu (A,B: in std_logic_vector;signal S: out std_logic_vector;
---					signal N,V,Z,C: out std_logic;SIGNED_OP: in std_logic;
---					CTRL_ALU: in ALU_OPS) is
---begin
---end alu;
+procedure alu (A,B: in std_logic_vector;signal S: out std_logic_vector;
+					signal N,V,Z,C: out std_logic;SIGNED_OP: in std_logic;
+					CTRL_ALU: in ALU_OPS) is
+begin
+end alu;
 
 end cpu_package;

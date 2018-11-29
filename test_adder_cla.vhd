@@ -96,8 +96,8 @@ begin
 	end if;
 	adder_cla(E_A, I_B, E_ADD_SUB, tmpS, tmpC, tmpV);
 	E_S <= tmpS;
-	E_V <= tmpV;
 	E_COUT <= tmpC;
+	E_V <= tmpV;
 end process P_ADDER;
 
 -----------------------------
