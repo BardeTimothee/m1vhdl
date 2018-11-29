@@ -20,17 +20,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling package body cpu_package
 -- Loading package cpu_package
 
-} {} {}} /home/brt1540a/m1vhdl/cpu_package.1.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/brt1540a/m1vhdl/cpu_package.1.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling package cpu_package
--- Compiling package body cpu_package
--- Loading package cpu_package
-
 } {} {}} /home/brt1540a/m1vhdl/registres.0.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/brt1540a/m1vhdl/registres.0.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD

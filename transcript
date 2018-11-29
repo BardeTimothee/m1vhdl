@@ -79,3 +79,19 @@ run -all
 # ** Failure: FIN DE SIMULATION
 #    Time: 80 ns  Iteration: 1  Process: /test_adder_cla/P_TEST File: /home/brt1540a/m1vhdl/test_adder_cla.vhd
 # Break in Process P_TEST at /home/brt1540a/m1vhdl/test_adder_cla.vhd line 189
+quit -sim
+# End time: 11:28:23 on Nov 29,2018, Elapsed time: 0:18:33
+# Errors: 0, Warnings: 1
+# Compile of cpu_package.0.vhd was successful.
+# Compile of memory.0.vhd was successful.
+# Compile of registres.0.vhd was successful.
+# Compile of registres.1.vhd was successful.
+# Compile of test_memory.0.vhd was successful.
+# Compile of test_registres.0.vhd was successful.
+# Compile of cpu_package.1.vhd failed with 2 errors.
+# Compile of test_adder_cla.vhd was successful.
+# Compile of test_alu.vhd was successful.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of cpu_package.1.vhd failed with 12 errors.
+# Compile of cpu_package.1.vhd failed with 12 errors.
+# Compile of cpu_package.1.vhd failed with 9 errors.

@@ -73,9 +73,9 @@ package cpu_package is
 
 	-- On notera l'utilisation d'un signal comme parametres formels de type OUT
 	-- procedure alu
---	procedure alu (A,B: in std_logic_vector; signal S: out std_logic_vector;
---						signal N,V,Z,C: out std_logic; SIGNED_OP: in std_logic;
---						CTRL_ALU: in ALU_OPS);
+	procedure alu (A,B: in std_logic_vector; signal S: out std_logic_vector;
+						signal N,V,Z,C: out std_logic; SIGNED_OP: in std_logic;
+						CTRL_ALU: in ALU_OPS);
 
 end cpu_package;
 
@@ -141,9 +141,25 @@ end adder_cla;
 
 -- procedure alu
 procedure alu (A,B: in std_logic_vector;signal S: out std_logic_vector;
-					signal N,V,Z,C: out std_logic;SIGNED_OP: in std_logic;
+					signal N,V,Z,C: out std_logic;
+					SIGNED_OP: in std_logic;
 					CTRL_ALU: in ALU_OPS) is
 begin
+	case (CTRL_ALU) is
+		when ALU_ADD | ALU_SUB =>
+			S <= adder_cla(A, B, '0', S, C, V);
+		when ALU_AND =>
+			S <= A and B;
+		when ALU_OR =>
+			S <= A or B;
+		when ALU_NOR =>
+			S <= A nor B;
+		when ALU_XOR =>
+			S <= A xor B;
+		when ALU_LSL =>
+			S <= '0';
+		when ALU_LSR =>
+			S <= '0';
 end alu;
 
 end cpu_package;

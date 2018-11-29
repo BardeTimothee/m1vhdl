@@ -13,208 +13,256 @@ Z0 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 w1543486152
-Z5 d/home/brt1540a/m1vhdl
-Z6 8/home/brt1540a/m1vhdl/cpu_package.1.vhd
-Z7 F/home/brt1540a/m1vhdl/cpu_package.1.vhd
+w1543488982
+Z4 d/home/brt1540a/m1vhdl
+8/home/brt1540a/m1vhdl/cpu_package.1.vhd
+F/home/brt1540a/m1vhdl/cpu_package.1.vhd
 l0
 L17
-VC>>zFW9Im>gzk>iI:ZSeW3
-!s100 n6CioaN]Y>AVAPEO^ljOH2
-Z8 OV;C;10.5b;63
+VdD3@o2GWn^9<TZgj7Moo91
+!s100 6L;bZNhoTm94<[:iElPbU3
+Z5 OV;C;10.5b;63
 32
 b1
-Z9 !s110 1543486172
+!s110 1543488994
 !i10b 1
-Z10 !s108 1543486172.000000
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/cpu_package.1.vhd|
-Z12 !s107 /home/brt1540a/m1vhdl/cpu_package.1.vhd|
+!s108 1543488994.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/cpu_package.1.vhd|
+!s107 /home/brt1540a/m1vhdl/cpu_package.1.vhd|
 !i113 1
-Z13 o-work work -2002 -explicit
-Z14 tExplicit 1 CvgOpt 0
+Z6 o-work work -2002 -explicit
+Z7 tExplicit 1 CvgOpt 0
 Bbody
-Z15 DPx4 work 11 cpu_package 0 22 C>>zFW9Im>gzk>iI:ZSeW3
+Z8 DPx4 work 11 cpu_package 0 22 PR4_6TI?R^[_MZj5i]I:30
 R0
 R1
 R2
 R3
 l0
-L85
-VXQS`ol_YHL6VHB05kfWZa3
-!s100 NPbe7OD_7EUA3TE0zafhT0
-R8
+L66
+VN7jZ^4g^da7QWMiNl;_WR0
+!s100 W3@7oSc8]3FAJ>SC<g7m51
+R5
 32
-R9
+!s110 1543488825
 !i10b 1
-R10
-R11
-R12
+!s108 1543488825.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/cpu_package.0.vhd|
+!s107 /home/brt1540a/m1vhdl/cpu_package.0.vhd|
 !i113 1
-R13
-R14
+R6
+R7
+F/home/brt1540a/m1vhdl/cpu_package.0.vhd
+w1542882468
+8/home/brt1540a/m1vhdl/cpu_package.0.vhd
 Ememory
-Z16 w1542882527
-Z17 DPx4 work 11 cpu_package 0 22 PR4_6TI?R^[_MZj5i]I:30
-Z18 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z9 w1542882527
+R8
+Z10 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R0
 R1
 R2
 R3
-R5
-Z19 8/home/brt1540a/m1vhdl/memory.0.vhd
-Z20 F/home/brt1540a/m1vhdl/memory.0.vhd
+R4
+Z11 8/home/brt1540a/m1vhdl/memory.0.vhd
+Z12 F/home/brt1540a/m1vhdl/memory.0.vhd
 l0
 L27
 V5PZ=JRc4lWdCVR=MU3[WU2
 !s100 Ne=lTjRJHGb`lXTUkG>VX3
-R8
+R5
 32
-Z21 !s110 1543484571
+Z13 !s110 1543488826
 !i10b 1
-Z22 !s108 1543484571.000000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/memory.0.vhd|
-Z24 !s107 /home/brt1540a/m1vhdl/memory.0.vhd|
+Z14 !s108 1543488826.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/memory.0.vhd|
+Z16 !s107 /home/brt1540a/m1vhdl/memory.0.vhd|
 !i113 1
-R13
-R14
+R6
+R7
 Abehavior
-R17
-R18
+R8
+R10
 R0
 R1
 R2
 R3
-Z25 DEx4 work 6 memory 0 22 5PZ=JRc4lWdCVR=MU3[WU2
+Z17 DEx4 work 6 memory 0 22 5PZ=JRc4lWdCVR=MU3[WU2
 l103
 L63
 Von3N?hEO7n029O<V9GaaH1
 !s100 WAJ9G5mAl[Kfc>gm;D4]a2
-R8
+R5
 32
-R21
-!i10b 1
-R22
-R23
-R24
-!i113 1
 R13
+!i10b 1
 R14
+R15
+R16
+!i113 1
+R6
+R7
 Eregistres
-Z26 w1542879568
+Z18 w1542879568
 R0
 R1
 R2
 R3
-R5
-Z27 8/home/brt1540a/m1vhdl/registres.1.vhd
-Z28 F/home/brt1540a/m1vhdl/registres.1.vhd
+R4
+Z19 8/home/brt1540a/m1vhdl/registres.1.vhd
+Z20 F/home/brt1540a/m1vhdl/registres.1.vhd
 l0
 L19
 V;5;;^BcbF2_Z:d>LMk_Lg0
 !s100 QaDjI80ob;Ol^Sz>anM_]2
-R8
+R5
 32
-Z29 !s110 1543484572
-!i10b 1
-Z30 !s108 1543484572.000000
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/registres.1.vhd|
-Z32 !s107 /home/brt1540a/m1vhdl/registres.1.vhd|
-!i113 1
 R13
+!i10b 1
 R14
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/registres.1.vhd|
+Z22 !s107 /home/brt1540a/m1vhdl/registres.1.vhd|
+!i113 1
+R6
+R7
 Abehavior
 R0
 R1
 R2
 R3
-Z33 DEx4 work 9 registres 0 22 ;5;;^BcbF2_Z:d>LMk_Lg0
+Z23 DEx4 work 9 registres 0 22 ;5;;^BcbF2_Z:d>LMk_Lg0
 l64
 L54
 VMkaa5Y?=gIH^0b1[jk>@Q3
 !s100 LzZW3T5VdO:]VX_e2k42Y1
-R8
+R5
 32
-R29
-!i10b 1
-R30
-R31
-R32
-!i113 1
 R13
+!i10b 1
 R14
+R21
+R22
+!i113 1
+R6
+R7
 Etest_adder_cla
-Z34 w1543483537
+Z24 w1543486302
 R0
-R15
+Z25 DPx4 work 11 cpu_package 0 22 dD3@o2GWn^9<TZgj7Moo91
 R1
 R2
 R3
-R5
-Z35 8/home/brt1540a/m1vhdl/test_adder_cla.vhd
-Z36 F/home/brt1540a/m1vhdl/test_adder_cla.vhd
+R4
+Z26 8/home/brt1540a/m1vhdl/test_adder_cla.vhd
+Z27 F/home/brt1540a/m1vhdl/test_adder_cla.vhd
 l0
 L30
 V:Z?_71lW@Y;:cbLeS57dg0
 !s100 iFiVT_=X9USbTJ=3R5oNR0
-R8
+R5
 32
-R9
+Z28 !s110 1543488827
 !i10b 1
-R10
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/test_adder_cla.vhd|
-Z38 !s107 /home/brt1540a/m1vhdl/test_adder_cla.vhd|
+Z29 !s108 1543488827.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/test_adder_cla.vhd|
+Z31 !s107 /home/brt1540a/m1vhdl/test_adder_cla.vhd|
 !i113 1
-R13
-R14
+R6
+R7
 Abehavior
 R0
-R15
+R25
 R1
 R2
 R3
-Z39 DEx4 work 14 test_adder_cla 0 22 :Z?_71lW@Y;:cbLeS57dg0
+DEx4 work 14 test_adder_cla 0 22 :Z?_71lW@Y;:cbLeS57dg0
 l56
 L34
-Z40 V[d:JPfPOCD9HR?ngd3J1g1
-Z41 !s100 9URLPH1Yh_CIS58bQ55_O1
-R8
+V3>^7>clVL92dB=LYVn4FO3
+!s100 @R^oS0CML3]9OgofIn>@l3
+R5
 32
-R9
+R28
 !i10b 1
-R10
-R37
-R38
+R29
+R30
+R31
 !i113 1
-R13
-R14
+R6
+R7
+Etest_alu
+Z32 w1543487323
+R0
+R25
+R1
+R2
+R3
+R4
+Z33 8/home/brt1540a/m1vhdl/test_alu.vhd
+Z34 F/home/brt1540a/m1vhdl/test_alu.vhd
+l0
+L16
+VzoIkBHaf91mc6km0;V;J:1
+!s100 8J^e[deFhA:_FNT9OUEI43
+R5
+32
+R28
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/test_alu.vhd|
+Z36 !s107 /home/brt1540a/m1vhdl/test_alu.vhd|
+!i113 1
+R6
+R7
+Abehavior
+R0
+R25
+R1
+R2
+R3
+DEx4 work 8 test_alu 0 22 zoIkBHaf91mc6km0;V;J:1
+l42
+L20
+V3WQV6UcKehK4<nOUVzERH1
+!s100 4C6JO@6HZ=<F<?_TD]T3F3
+R5
+32
+R28
+!i10b 1
+R29
+R35
+R36
+!i113 1
+R6
+R7
 Etest_memory
-R26
-R17
+R18
+R8
 R0
 R1
 R2
 R3
-R5
-Z42 8/home/brt1540a/m1vhdl/test_memory.0.vhd
-Z43 F/home/brt1540a/m1vhdl/test_memory.0.vhd
+R4
+Z37 8/home/brt1540a/m1vhdl/test_memory.0.vhd
+Z38 F/home/brt1540a/m1vhdl/test_memory.0.vhd
 l0
 L24
 VdU=9gW5mFFHHjB5??;]:G3
 !s100 j3@L5QAf>EiA^kI>i6:<l1
-R8
+R5
 32
-R29
-!i10b 1
-R30
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/test_memory.0.vhd|
-Z45 !s107 /home/brt1540a/m1vhdl/test_memory.0.vhd|
-!i113 1
 R13
+!i10b 1
 R14
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/test_memory.0.vhd|
+Z40 !s107 /home/brt1540a/m1vhdl/test_memory.0.vhd|
+!i113 1
+R6
+R7
 Abehavior
-R18
-R25
+R10
 R17
+R8
 R0
 R1
 R2
@@ -224,41 +272,41 @@ l53
 L28
 V_Z4eSXQJJoN7_kld_hRYX2
 !s100 j@SJ^ZVZLBTnIe3VN25Ca1
-R8
+R5
 32
-R29
-!i10b 1
-R30
-R44
-R45
-!i113 1
 R13
+!i10b 1
 R14
+R39
+R40
+!i113 1
+R6
+R7
 Etest_registres
-R26
+R18
 R0
 R1
 R2
 R3
-R5
-Z46 8/home/brt1540a/m1vhdl/test_registres.0.vhd
-Z47 F/home/brt1540a/m1vhdl/test_registres.0.vhd
+R4
+Z41 8/home/brt1540a/m1vhdl/test_registres.0.vhd
+Z42 F/home/brt1540a/m1vhdl/test_registres.0.vhd
 l0
 L15
 VJKldl0]PcX77V2iFJ=QXl3
 !s100 Tcl<olQmSdZc^2Wbh86HK3
-R8
+R5
 32
-R29
-!i10b 1
-R30
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/test_registres.0.vhd|
-Z49 !s107 /home/brt1540a/m1vhdl/test_registres.0.vhd|
-!i113 1
 R13
+!i10b 1
 R14
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/brt1540a/m1vhdl/test_registres.0.vhd|
+Z44 !s107 /home/brt1540a/m1vhdl/test_registres.0.vhd|
+!i113 1
+R6
+R7
 Abehavior
-R33
+R23
 R0
 R1
 R2
@@ -268,13 +316,13 @@ l40
 L19
 VVGQYDO8I64O<h1Wz`cBKk3
 !s100 ;jn=5N=ndfQeeU?9nkY>z2
-R8
+R5
 32
-R29
-!i10b 1
-R30
-R48
-R49
-!i113 1
 R13
+!i10b 1
 R14
+R43
+R44
+!i113 1
+R6
+R7
